@@ -1,0 +1,30 @@
+# Office lock / temp files
+~$*
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Editor backups / swap files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Environment / secrets (defensive — none expected here but protective)
+.env
+.env.local
+*.pem
+*.key
+credentials.json

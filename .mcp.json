@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "ibkr": {
+      "command": "npx",
+      "args": ["-y", "interactive-brokers-mcp"],
+      "env": {
+        "IB_HEADLESS_MODE": "true",
+        "IB_USERNAME": "${IB_USERNAME}",
+        "IB_PASSWORD_AUTH": "${IB_PASSWORD_AUTH}",
+        "IB_PAPER_TRADING": "${IB_PAPER_TRADING:-true}",
+        "IB_READ_ONLY_MODE": "${IB_READ_ONLY_MODE:-true}",
+        "IB_FLEX_TOKEN": "${IB_FLEX_TOKEN}"
+      }
+    }
+  }
+}
